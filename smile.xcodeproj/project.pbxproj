@@ -22,6 +22,16 @@
 		0607D0D513D18D4A00DE46F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0607D0D313D18D4A00DE46F9 /* InfoPlist.strings */; };
 		0607D0D813D18D4A00DE46F9 /* smileTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0607D0D713D18D4A00DE46F9 /* smileTests.h */; };
 		0607D0DA13D18D4A00DE46F9 /* smileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0607D0D913D18D4A00DE46F9 /* smileTests.m */; };
+		0607D0E713D18EF500DE46F9 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0607D0E413D18EF500DE46F9 /* libopencv_core.a */; };
+		0607D0E813D18EF500DE46F9 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0607D0E513D18EF500DE46F9 /* libopencv_imgproc.a */; };
+		0607D0E913D18EF500DE46F9 /* libopencv_objdetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0607D0E613D18EF500DE46F9 /* libopencv_objdetect.a */; };
+		0607D0F413D190C000DE46F9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0607D0F213D190C000DE46F9 /* Accelerate.framework */; };
+		0607D0F513D190C000DE46F9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0607D0F313D190C000DE46F9 /* AVFoundation.framework */; };
+		0607D0FA13D1985A00DE46F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0607D0F713D1985A00DE46F9 /* CoreGraphics.framework */; };
+		0607D0FB13D1985A00DE46F9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0607D0F813D1985A00DE46F9 /* CoreMedia.framework */; };
+		0607D0FC13D1985A00DE46F9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0607D0F913D1985A00DE46F9 /* CoreVideo.framework */; };
+		0607D0FE13D1A67200DE46F9 /* smile1.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0607D0FD13D1A67200DE46F9 /* smile1.xml */; };
+		0607D10013D1A91200DE46F9 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0607D0FF13D1A91200DE46F9 /* smile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +49,32 @@
 		0607D0AA13D18D4A00DE46F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0607D0AC13D18D4A00DE46F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0607D0AE13D18D4A00DE46F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0607D0B213D18D4A00DE46F9 /* smile-Info.plist */ = {isa = PBXFileReference; path = "smile-Info.plist"; sourceTree = "<group>"; };
+		0607D0B213D18D4A00DE46F9 /* smile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "smile-Info.plist"; sourceTree = "<group>"; };
 		0607D0B413D18D4A00DE46F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0607D0B613D18D4A00DE46F9 /* smile-Prefix.pch */ = {isa = PBXFileReference; path = "smile-Prefix.pch"; sourceTree = "<group>"; };
+		0607D0B613D18D4A00DE46F9 /* smile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smile-Prefix.pch"; sourceTree = "<group>"; };
 		0607D0B713D18D4A00DE46F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0607D0B913D18D4A00DE46F9 /* smileAppDelegate.h */ = {isa = PBXFileReference; path = smileAppDelegate.h; sourceTree = "<group>"; };
+		0607D0B913D18D4A00DE46F9 /* smileAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smileAppDelegate.h; sourceTree = "<group>"; };
 		0607D0BA13D18D4A00DE46F9 /* smileAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smileAppDelegate.m; sourceTree = "<group>"; };
 		0607D0BD13D18D4A00DE46F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		0607D0BF13D18D4A00DE46F9 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		0607D0BF13D18D4A00DE46F9 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		0607D0C013D18D4A00DE46F9 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		0607D0C313D18D4A00DE46F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		0607D0CA13D18D4A00DE46F9 /* smileTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smileTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0607D0D213D18D4A00DE46F9 /* smileTests-Info.plist */ = {isa = PBXFileReference; path = "smileTests-Info.plist"; sourceTree = "<group>"; };
+		0607D0D213D18D4A00DE46F9 /* smileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "smileTests-Info.plist"; sourceTree = "<group>"; };
 		0607D0D413D18D4A00DE46F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0607D0D613D18D4A00DE46F9 /* smileTests-Prefix.pch */ = {isa = PBXFileReference; path = "smileTests-Prefix.pch"; sourceTree = "<group>"; };
+		0607D0D613D18D4A00DE46F9 /* smileTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smileTests-Prefix.pch"; sourceTree = "<group>"; };
 		0607D0D713D18D4A00DE46F9 /* smileTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smileTests.h; sourceTree = "<group>"; };
 		0607D0D913D18D4A00DE46F9 /* smileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smileTests.m; sourceTree = "<group>"; };
+		0607D0E413D18EF500DE46F9 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_core.a; path = opencv_simulator/lib/libopencv_core.a; sourceTree = "<group>"; };
+		0607D0E513D18EF500DE46F9 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = opencv_simulator/lib/libopencv_imgproc.a; sourceTree = "<group>"; };
+		0607D0E613D18EF500DE46F9 /* libopencv_objdetect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_objdetect.a; path = opencv_simulator/lib/libopencv_objdetect.a; sourceTree = "<group>"; };
+		0607D0F213D190C000DE46F9 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		0607D0F313D190C000DE46F9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0607D0F713D1985A00DE46F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0607D0F813D1985A00DE46F9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0607D0F913D1985A00DE46F9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0607D0FD13D1A67200DE46F9 /* smile1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = smile1.xml; path = haarcascade/smile1.xml; sourceTree = "<group>"; };
+		0607D0FF13D1A91200DE46F9 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smile.png; path = images/smile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +85,14 @@
 				0607D0AB13D18D4A00DE46F9 /* UIKit.framework in Frameworks */,
 				0607D0AD13D18D4A00DE46F9 /* Foundation.framework in Frameworks */,
 				0607D0AF13D18D4A00DE46F9 /* CoreGraphics.framework in Frameworks */,
+				0607D0E713D18EF500DE46F9 /* libopencv_core.a in Frameworks */,
+				0607D0E813D18EF500DE46F9 /* libopencv_imgproc.a in Frameworks */,
+				0607D0E913D18EF500DE46F9 /* libopencv_objdetect.a in Frameworks */,
+				0607D0F413D190C000DE46F9 /* Accelerate.framework in Frameworks */,
+				0607D0F513D190C000DE46F9 /* AVFoundation.framework in Frameworks */,
+				0607D0FA13D1985A00DE46F9 /* CoreGraphics.framework in Frameworks */,
+				0607D0FB13D1985A00DE46F9 /* CoreMedia.framework in Frameworks */,
+				0607D0FC13D1985A00DE46F9 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +112,8 @@
 		0607D09B13D18D4900DE46F9 = {
 			isa = PBXGroup;
 			children = (
+				0607D0F613D1970700DE46F9 /* Resouces */,
+				0607D0E313D18ED600DE46F9 /* Libraries */,
 				0607D0B013D18D4A00DE46F9 /* smile */,
 				0607D0D013D18D4A00DE46F9 /* smileTests */,
 				0607D0A913D18D4A00DE46F9 /* Frameworks */,
@@ -103,6 +133,11 @@
 		0607D0A913D18D4A00DE46F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0607D0F713D1985A00DE46F9 /* CoreGraphics.framework */,
+				0607D0F813D1985A00DE46F9 /* CoreMedia.framework */,
+				0607D0F913D1985A00DE46F9 /* CoreVideo.framework */,
+				0607D0F213D190C000DE46F9 /* Accelerate.framework */,
+				0607D0F313D190C000DE46F9 /* AVFoundation.framework */,
 				0607D0AA13D18D4A00DE46F9 /* UIKit.framework */,
 				0607D0AC13D18D4A00DE46F9 /* Foundation.framework */,
 				0607D0AE13D18D4A00DE46F9 /* CoreGraphics.framework */,
@@ -153,6 +188,25 @@
 				0607D0D613D18D4A00DE46F9 /* smileTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0607D0E313D18ED600DE46F9 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				0607D0E413D18EF500DE46F9 /* libopencv_core.a */,
+				0607D0E513D18EF500DE46F9 /* libopencv_imgproc.a */,
+				0607D0E613D18EF500DE46F9 /* libopencv_objdetect.a */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		0607D0F613D1970700DE46F9 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				0607D0FF13D1A91200DE46F9 /* smile.png */,
+				0607D0FD13D1A67200DE46F9 /* smile1.xml */,
+			);
+			name = Resouces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +282,8 @@
 				0607D0B513D18D4A00DE46F9 /* InfoPlist.strings in Resources */,
 				0607D0BE13D18D4A00DE46F9 /* MainWindow.xib in Resources */,
 				0607D0C413D18D4A00DE46F9 /* RootViewController.xib in Resources */,
+				0607D0FE13D1A67200DE46F9 /* smile1.xml in Resources */,
+				0607D10013D1A91200DE46F9 /* smile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +391,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -349,7 +405,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
@@ -359,12 +415,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 修 Noguchi (BQY439J4V9)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "smile/smile-Prefix.pch";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/include\"";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/include\"";
 				INFOPLIST_FILE = "smile/smile-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/opencv_simulator/lib\"",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/lib\"";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/lib\"";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "37D3F8F1-59F2-4468-8748-295B9C94EB6E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,11 +443,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 修 Noguchi (BQY439J4V9)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "smile/smile-Prefix.pch";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/include\"";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/include\"";
 				INFOPLIST_FILE = "smile/smile-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/opencv_simulator/lib\"",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/lib\"";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/lib\"";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "37D3F8F1-59F2-4468-8748-295B9C94EB6E";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
